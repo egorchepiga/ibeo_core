@@ -896,16 +896,16 @@ std::vector<Point3DL> ScanData2208::get_scan_points()
       switch (sp.layer)
       {
       case 0:
-        theta = (88.4 * (M_PI / 180.0));
+        theta = (88.8 * (M_PI / 180.0));
         break;
       case 1:
-        theta = (89.2 * (M_PI / 180.0));
+        theta = (89.6 * (M_PI / 180.0));
         break;
       case 2:
-        theta = (90.8 * (M_PI / 180.0));
+        theta = (90.4 * (M_PI / 180.0));
         break;
       case 3:
-        theta = (91.6 * (M_PI / 180.0));
+        theta = (91.2 * (M_PI / 180.0));
         break;
       }
 
